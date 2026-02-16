@@ -1,0 +1,55 @@
+.categories-section {
+    padding-top:40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.category-card {
+     position: relative; /*servira para aplicarmos o overlay, mas sem perder a funcionalidade dos botões dos cards */
+    width: 317px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden; /*Serve para escondermos tudo que vaze para fora do card, como o overlay */
+}
+
+.overlay {
+    position: absolute;
+    inset: 0; /*Atalho para o (top: 0; left: 0; right: 0; bottom: 0)Vai fazer com que o a sua posição ocupe 100% da área do cartão */
+    background-color: rgba(0, 0, 0, 0.15); /*Cor preta com opacidade de 40% */
+    z-index: 1; /*Serve para controlar a sobreposição dos elementos no eixo Z (eixo de profundidade) colocar o overlay atrás do nome da categoria, que tem z-index: 2 */
+    overflow: hidden;
+}
+
+.category-name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+.casual {
+    background: url(../../images/products/casual.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.esportes {
+    background: url(../../images/products/esportes.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.moderno {
+    background: url(../../images/products/moderno.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.futurista {
+    background: url(../../images/products/futurista.jpg) no-repeat center;
+    background-size: cover;
+}
+

@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SyntaxWear - Tênis e Sneakers Online</title>
+    <meta
+      name="description"
+      content="Compre os melhores tênis e sneakers online na SyntaxWear. Encontre os últimos lançamentos, estilos exclusivos e ofertas imperdíveis para homens e mulheres. Transforme seu estilo com nossos calçados de alta qualidade."
+    />
+    <!--Descrição que aparecem quando o usuário pesquisa pelo site no Google -> é a descrição dsa página-->
+
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variable.css" />
     <link rel="stylesheet" href="./css/base.css" />
@@ -10,8 +17,8 @@
 
     <link rel="stylesheet" href="./css/components/header.css" />
     <link rel="stylesheet" href="./css/components/hero.css" />
-
-    <title>SyntaxWear - Tênis e Sneakers Online</title>
+    <link rel="stylesheet" href="./css/components/product-category.css" />
+    <link rel="stylesheet" href="./css/components/product-grid.css" />
   </head>
   <body>
     <header class="header">
@@ -73,6 +80,58 @@
 
       <section class="categories-section">
         <!--seção de categorias de tenis -->
+
+        <div class="category-card casual">
+          <a href="" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Casual</span>
+          </a>
+        </div>
+
+        <div class="category-card esportes">
+          <a href="" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Esportes</span>
+          </a>
+        </div>
+
+        <div class="category-card moderno">
+          <a href="" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Moderno</span>
+          </a>
+        </div>
+
+        <div class="category-card futurista">
+          <a href="" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Futurista</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Products Grid -->
+       <section class="grid-section">
+        <div class="card top1">
+          <div class="top1-content">
+            <h3 class="card-title">Krypton One</h3>
+            <p class="card-subtitle">Estilo urbano com atitude</p>
+            <div class="cta-group">
+              <a href="#" class="btn btn-outline">Feminino</a>
+              <a href="#" class="btn btn-outline">Masculino</a>
+            </div>
+          </div>
+        </div>
+        <div class="card top2">
+        </div>
+        <div class="card midL"></div>
+        <div class="card midR"></div>
+        <div class="card bottomL"></div>
+        <div class="card bottomR"></div>
+       </section>
+
+      <section class="featured-products-section">
+         <!--Grid com produtos em destaque-->
       </section>
     </main>
   </body>

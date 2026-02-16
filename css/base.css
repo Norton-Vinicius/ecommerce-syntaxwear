@@ -2,3 +2,21 @@ body {
     font-family: var(--fonte-principal);
     color: #333333;
 }
+
+main {
+    padding: 2.5rem 0 0;
+    max-width: 1360px;
+    margin: 0 auto; /*o auto pega o espaço que sobrou e divide por igual para os dois lados, centralizando o conteúdo horizontalmente, mas para isso, é preciso ter uma largura*/
+}
+
+.btn {
+    font-size: 1.25rem;
+    width: 161px;
+    height: 48px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
