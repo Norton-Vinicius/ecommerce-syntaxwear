@@ -52,6 +52,7 @@
         "top1 top1 midL midR"
         "bottomL bottomL midL bottomR";
     gap: 30px;
+    padding-bottom: 30px;
 }
 
 .top1-content {

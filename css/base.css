@@ -4,9 +4,10 @@ body {
 }
 
 main {
-    padding: 2.5rem 0 0;
+    padding: 2.5rem 0 2.5rem;
     max-width: 1360px;
     margin: 0 auto; /*o auto pega o espaço que sobrou e divide por igual para os dois lados, centralizando o conteúdo horizontalmente, mas para isso, é preciso ter uma largura*/
+
 }
 
 .btn {
@@ -18,5 +19,12 @@ main {
     font-weight: 400;
     padding: 10px 20px;
     transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.footer-copy {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.875rem;
+    color: #9e9e9e;
 }
 
