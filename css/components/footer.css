@@ -70,3 +70,34 @@
 .footer-social li a:hover img{ /*aqui, utilizamos o a:hover img, pois queremos que a opacidade seja aplicada no icone (imagem) quando o usuário passar o mouse sobre o link (a). Se utilizássemos apenas a:hover, a opacidade seria aplicada em todo o link, incluindo o texto, o que não é o que queremos. Ao usar a:hover img, garantimos que apenas a imagem (ícone) seja afetada pela mudança de opacidade quando o usuário interagir com o link. */
     opacity: 0.7;
 }
+
+.footer-copy {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.875rem;
+    color: #9e9e9e;
+}
+
+@media (max-width: 1000px) {
+
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+        
+    }
+
+    .footer-nav{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-social ul {
+        gap: 1rem;
+    }
+
+    .footer-copy {
+        font-size: 0.75rem;
+        padding: 1.5rem 0 1.5rem;
+    }
+}
